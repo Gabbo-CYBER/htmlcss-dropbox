@@ -45,7 +45,6 @@ ul{
     
 button{
     padding: 10px;
-    font-size: 15px;
     border: none;
     align-self: flex-start;
     background-color: blue;
@@ -73,18 +72,31 @@ padding-top:7px ;
 
 header
 {
-    height: 7vh;
+    height: 9vh;
     position: relative;
-    background-color:white
+    
 }
 
-nav
-{
-    width: 80%;
+nav{
+
+    width: 100%;
     padding-top: 20px;
     text-align: center;
     margin: auto;
+    position: fixed;
+    background-color: white;
 }
+
+
+.jumbo{
+    background-size: cover;
+    width: 29%;
+}
+
+
+
+
+
 
 
 .contenitore
@@ -93,13 +105,15 @@ nav
     text-align: center;
     background-color: #a3b7db;
     display: flow-root;
-    height: 37%;
+    height: 32%;
+    
 }
 
 
 span{
     display: flex;
     justify-content: center;
+   
 
 }
 
@@ -120,7 +134,7 @@ p{
 
 main{
     margin: 5%;
-    background-color: green;
+    display: flow-root;
 }
 
 
@@ -131,37 +145,105 @@ input{
 
 /*********Colonne******/
 
-section{
+.section-a{
     display: flex;
-
-
-
 }
 
 
 .colonne{
-    height: 100%;
-    background-color: yellow;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 20px;
+}
+
+.colonna-a{
+    width: 100%;
+    margin: 10px;
+    list-style: none;
+    border: ridge;
+}
+
+.colonna-b{
+    margin: 1%;
+    width: 100%;
+    list-style: none;
+    border: ridge;
+}
+
+
+.colonna-c{
+    width: 100%;
+    margin: 10px;
+    list-style: none;
+    border: ridge;
+   
+}
+
+.border-a{
+    height: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    border: ridge;
+    width: 94%;
+}
+
+/********2 colonna*******/
+
+
+.colonna-d{
+    list-style: none;
+    border: ridge;
+    justify-content: right;
+    text-align: end;
+}
+
+
+
+
+
+.colonna-e{
+    width: 100%;
+    list-style: none;
+    text-align: left;
+}
+
+
+.border-b{
+    height: 2rem;
+    text-align: center;
+    border: ridge;
+}
+
+
+/*******Photo*******/
+
+
+.partner{
+    width: 29%;
+
+
+
 
 }
 
-.colonna1{
-    background-color: brown;
-    padding: 10rem;
-
-
+.box{
+    margin: 2;
+    display: flex;
 
 }
 
-.colonna2{
-    background-color: orange;
-    padding: 10rem;
+
+
+.colonna-f{
+    width: 35%;
+    align-self: center;
+    padding: 4%;
+    list-style: none;
 }
 
 
-.colonna3{
-    background-color: green;
-    padding: 10rem;
-}
 
 
